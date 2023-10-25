@@ -6,6 +6,8 @@ import { Header } from './components/parts-website/Header'
 import { Banner } from './components/parts-website/Banner'
 import { Line } from './components/parts-website/Line'
 import { Recent } from './components/parts-website/Recent'
+import { About } from './components/parts-website/About'
+import { Products } from './components/parts-website/Products'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +17,10 @@ function App() {
      <Header/>
      <Banner/> 
      <Line/> 
-     <Recent/> 
+     <About/> 
+     <Recent/>
+     <Line/> 
+     <Products/> 
     </>
   )
 }

@@ -12,7 +12,6 @@ export const Header = () => {
             <ul className='w-full h-full flex items-center justify-between'>
               <li><a className='text-xl text-orange-900 hover:text-orange-500' href="">Inicio</a></li>
               <li><a className='text-xl text-orange-900 hover:text-orange-500' href="">Nosotros</a></li>
-              <li><a className='text-xl text-orange-900 hover:text-orange-500' href="">Sucursales</a></li>
               <li><a className='text-xl text-orange-900 hover:text-orange-500' href="">Productos</a></li>
               <li><a className='text-xl text-orange-900 hover:text-orange-500' href="">Contacto</a></li>
             </ul>
